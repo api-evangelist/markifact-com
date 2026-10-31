@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Markifact provides AI-driven marketing automation platform that enables marketers to create, analyze, and automate campaigns across multiple channels. Leveraging large language models, Markifact offers agents and workflows to generate ad creatives, produce performance reports, and integrate with advertising platforms like Google and Meta. The service includes a marketplace of pre-built templates, white‑label connections, and a credit‑based usage model, targeting enterprises and agencies seeking scalable AI marketing solutions.
+Markifact helps marketers use AI agents, workflows, and MCP to create campaigns, analyze performance, and automate reporting across Google Ads, Meta Ads, GA4, TikTok Ads, and more. The platform integrates with major advertising services, providing a unified interface for data-driven marketing automation and insight generation.
 
-**Areas:** AI Marketing Automation · Ad Management · Reporting · Workflow Automation · Marketing Operations · Data Integration
+**Areas:** Marketing · AI · Automation · Advertising · Integration
 
 ## markifact-com on APIs.io
 
@@ -82,34 +82,11 @@ Everything profiled for markifact-com is published on APIs.io rather than in thi
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Agentic access (1)
+#### Overlays (1)
 
-Which operations an agent can call, which act, and which need a human in the loop.
+OpenAPI overlays, including conversational phrasing for each operation.
 
-- [Markifact Com Agentic Access](https://apis.io/agentic-access/markifact-com/markifact-com-agentic-access/)
-
-#### JSON Schema (6)
-
-The data models the API reads and writes.
-
-- [AuthLinkStatus](https://apis.io/schemas/markifact-com/markifact-com-auth-link-status/)
-- [ConnectionType](https://apis.io/schemas/markifact-com/markifact-com-connection-type/)
-- [CreateAuthLinkRequest](https://apis.io/schemas/markifact-com/markifact-com-create-auth-link-request/)
-- [CreateConnectionRequest](https://apis.io/schemas/markifact-com/markifact-com-create-connection-request/)
-- [CreditBalance](https://apis.io/schemas/markifact-com/markifact-com-credit-balance/)
-- [Log](https://apis.io/schemas/markifact-com/markifact-com-log/)
-
-#### JSON-LD (1)
-
-Linked-data contexts for the provider's vocabulary.
-
-- [Markifact Com Context](https://apis.io/jsonld/markifact-com/markifact-com-context/)
-
-#### Governance rules (1)
-
-Spectral rulesets for the provider's contracts.
-
-- [markifact-com API Rules](https://apis.io/rules/markifact-com/markifact-com-rules/)
+- [Markifact Com Openapi Overlay](https://apis.io/overlays/markifact-com/markifact-com-openapi-overlay/)
 
 #### Security (2)
 
@@ -118,22 +95,35 @@ Authentication, trust centre, and vulnerability disclosure.
 - [Markifact Com Authentication](https://apis.io/security/markifact-com/markifact-com-authentication/)
 - [Markifact Com Domain Security](https://apis.io/security/markifact-com/markifact-com-domain-security/)
 
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Markifact Com Scopes](https://apis.io/scopes/markifact-com/markifact-com-scopes/)
+
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
 - [Markifact Com Plans Pricing](https://apis.io/plans/markifact-com/markifact-com-plans-pricing/)
 
+#### Rate limits (1)
+
+Published request limits.
+
+- [Markifact Com Rate Limits](https://apis.io/rate-limits/markifact-com/markifact-com-rate-limits/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Website](https://www.markifact.com/)
+- [Website](https://markifact.com/)
 - [Documentation](https://docs.markifact.com/)
 - [Getting started](https://docs.markifact.com/quickstart)
-- [API reference](https://docs.markifact.com/api-reference/)
+- [API reference](https://docs.markifact.com/api-reference/getting-started)
 - [Pricing](https://www.markifact.com/pricing)
-- [Support](https://www.markifact.com/contact)
+- [Sign up](https://www.markifact.com/auth/signup)
+- [Changelog](https://www.markifact.com/changelog)
 - [Blog](https://www.markifact.com/blog)
 - [Trust centre](https://www.markifact.com/trust-center)
 - [Terms of service](https://www.markifact.com/terms-conditions)
@@ -142,30 +132,30 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 62.8** — strong · rubric 0.25.0 · scored 2026-10-29
+**Kin Score 51.1** — developing · rubric 0.25.0 · scored 2026-10-29
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 61.4 |
-| Contract governance | 79.1 |
+| Discoverability | 65.0 |
+| Contract quality | 47.8 |
+| Contract governance | 0.0 |
 | Operational transparency | 31.6 |
-| Developer ergonomics | 54.0 |
+| Developer ergonomics | 58.8 |
 | Access clarity | 71.6 |
 
-**Agent readiness 55.0** — agent-ready (gated down from agent-native)
+**Agent readiness 51.2** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | — |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
 | Error Semantics | verified |
 | OpenAPI Examples | — |
-| Rate Limit Signal | — |
+| Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
 | Agent Skills | unknown |
 | Well Known Catalog | — |
@@ -179,7 +169,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | — |
 | Operation Distinctiveness | distinct |
 
-**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/markifact-com/](https://apis.io/providers/markifact-com/).
 
